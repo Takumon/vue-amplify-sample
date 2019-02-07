@@ -1,0 +1,17 @@
+projects:
+  Vue AppSync:
+    schemaPath: src\graphql\schema.json
+    includes:
+      - src\graphql\**\*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        graphQLApiId: p5b7q6uha5ctdlzb3ssi4fyc6y
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src\graphql
+        region: us-east-2
+      endpoints:
+        prod: >-
+          https://kzwieyfkkjelvdyvwvn4syoyda.appsync-api.us-east-2.amazonaws.com/graphql

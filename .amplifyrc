@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "vueappsyncsample-20190206102804-authRole",
+            "UnauthRoleArn": "arn:aws:iam::189642399125:role/vueappsyncsample-20190206102804-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::189642399125:role/vueappsyncsample-20190206102804-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "vueappsyncsample-20190206102804-deployment",
+            "UnauthRoleName": "vueappsyncsample-20190206102804-unauthRole",
+            "StackName": "vueappsyncsample-20190206102804",
+            "StackId": "arn:aws:cloudformation:us-east-1:189642399125:stack/vueappsyncsample-20190206102804/72e8ab90-29ae-11e9-81aa-0a58bb354edc"
+        }
+    }
+}
